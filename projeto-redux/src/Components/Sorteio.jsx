@@ -9,7 +9,8 @@ export default props => {
             <div>
                 <span>
                     <span>Resultado:</span>
-                    <strong>{aleatorio}</strong>
+                    {/* <strong>{aleatorio}</strong> */}
+                    <strong>{15}</strong>
                 </span>
             </div>
         </Card>

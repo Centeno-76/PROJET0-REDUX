@@ -8,7 +8,7 @@ export default props => {
             <div>
                 <span>
                     <span>Resultado:</span>
-                    <span>{min + max}</span>
+                    <span>{(min + max)}</span>
                 </span>
             </div>
         </Card>

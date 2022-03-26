@@ -15,9 +15,10 @@ function App() {
       <h1>Projeto-Redux</h1>
       
       <div className="linha">
-        <Intervalo min={min} max={max}></Intervalo>
-
+        <Intervalo min={min} max={max} 
+        onMinChanged={setMin} onMaxChanged={setMax}></Intervalo>
       </div>
+
       <div className="linha">
        <Media  min={min} max={max}></Media>
        <Soma min={min} max={max}></Soma>

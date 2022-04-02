@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "./Card";
+import { connect } from "react-redux"
 
 function Soma (props){
     const {min, max} = props
